@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galactic News Portal</title>
+    <link rel="stylesheet" href="styles/card.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
+        }
+        .card {
+            display: flex;
+            flex-direction: row;
+            background-color: #fff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin: 20px;
+            width: 70%;
+            border-radius: 8px;
+            overflow: hidden;
+        }
+        .card_left {
+            padding: 20px;
+            flex: 1;
+        }
+        .card_left span {
+            display: block;
+            color: #888;
+            margin-bottom: 10px;
+        }
+        .card_left a {
+            color: #333;
+            font-size: 24px;
+            text-decoration: none;
+            margin-bottom: 15px;
+            display: block;
+        }
+        .card_left p {
+            font-size: 16px;
+            color: #555;
+            line-height: 1.6;
+        }
+        .card_right {
+            flex: 1;
+            background-color: #f4f4f4;
+        }
+        .card_right img {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px; /* Adjust the value for desired spacing */
+}
+
+.card_right img:last-child {
+    margin-bottom: 0; /* Remove margin for the last image */
+}
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <div class="card_left">
+                <span>By Maria Evellyn, QuickSilver:</span>
+                <a href="#">Darth Vader in Brazil!</a>
+                <p>
+                    In a surprising turn of events, the infamous Sith Lord, Darth Vader, has been spotted enjoying a vacation on the beautiful beaches of Rio de Janeiro, Brazil! In an exclusive interview, Vader revealed, "I've grown weary of endless battles in the galaxy. Now, I just want to relax and soak up some sun."
+                </p>
+                <p>
+                    The Dark Lord of the Sith, known for his fearsome presence and powerful Force abilities, seemed surprisingly relaxed as he strolled along the sandy shores, enjoying the tropical breeze. Locals and tourists alike were stunned to see the iconic black armor and helmet in such an unexpected setting.
+                </p>
+                <p>
+                    Despite his fearsome reputation, Darth Vader appeared approachable, even taking time to pose for pictures with excited fans. He remarked, "It's not often I get to unwind like this. The Force brought me here, and I must say, the beaches are as beautiful as the stars."
+                </p>
+            </div>
+            <div class="card_right">
+                <img src="assents/darth-img.jpg" alt="Darth Vader">
+                <img src="assents/darth-ferias.jpg" alt="Darth Vader enjoying the beach">
+                <img src="assents/Thanos-HD.jpg" alt="Thanos">
+            </div>
+        </div>
+    </div>
+</body>
+</html>

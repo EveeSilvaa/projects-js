@@ -1,0 +1,72 @@
+body {
+    background: #0a0a0a;
+    font-family: Verdana;
+    max-width: 900px;
+    margin: center;
+}
+
+#title, .subtitle, .post_question, .coment, .coment_name {
+    color: hsl(219, 89%, 72%);
+}
+
+.post_question {
+    background: #464A4E;
+    size: 16px;
+    font-style: bold;
+    margin: 7px;
+    margin-bottom: 15px;
+}
+
+.phrases, .interview {
+    color: #e9faff;
+    border-radius: 5px;
+}
+
+.interview {
+    size: 14px;
+    font-style: italic;
+    margin: 7px;
+    margin-bottom: 15px;
+}
+
+.post_question {
+    padding: 15px;
+    margin-bottom: 15px;
+}
+
+.coment {
+    background: #464A4E;
+    border-bottom: outset #7FA6EE;
+    margin-top: 1px;
+    margin-left: 7px;
+}
+
+
+.coment_name, .phrases {
+    background: #464A4E;
+}
+
+.ET, .casal {
+    margin-bottom: 15px;
+    border: 1px outset #7FA6EE;
+    border-radius: 5px;
+    width: 9%;
+}
+
+.post {
+    border: 3px outset #7FA6EE;
+    border-radius: 5px;
+}
+
+.bloco {
+    border: 3px outset #7FA6EE;
+    margin-top: 15px;
+}
+
+.coment_name {
+    border-top: 2px outset #7FA6EE;
+}
+
+.phrases {
+    border-bottom: 2px outset #7FA6EE;
+}
